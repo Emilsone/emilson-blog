@@ -15,7 +15,6 @@
     >
       <header>
         <h1 class="font-black text-8xl">Emilson Technical Blog</h1>
-        <p>Take a look at <NuxtLink to="/blog">my blog</NuxtLink></p>
       </header>
     </section>
     <section class="body-font">
@@ -88,28 +87,12 @@
       <div class="container px-5 py-24 mx-auto">
         <h4 class="sm:text-2xl text-3xl mb-4 font-bold text-white">
           I have written lot of articles for different blog
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-8"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M19 14l-7 7m0 0l-7-7m7 7V3"
-              />
-            </svg>
-          </span>
         </h4>
         <div class="flex flex-wrap -m-4">
           <div class="p-4 lg:w-1/3">
             <div
               class="
-                h-96
+                h-5/6
                 px-8
                 pt-16
                 pb-24
@@ -125,21 +108,19 @@
                   text-xs
                   title-font
                   font-medium
-                  text-gray-400
-                  mb-1
+                  text-black
+                  mb-4
+                  inline-block
+                  py-1
+                  px-2
+                  rounded
+                  bg-white
                 "
               >
-                Javascipt | Currying 
+                Javascipt | Currying
               </h2>
               <h1
-                class="
-                  title-font
-                  sm:text-2xl
-                  text-xl
-                  font-medium
-                  text-white
-                  mb-3
-                "
+                class="title-font sm:text-3xl text-xl font-bold text-white mb-3"
               >
                 Understanding JavaScript currying
               </h1>
@@ -148,7 +129,7 @@
                 Javascript, why and where you should use currying, and how to
                 implement it with code examples.
               </p>
-              <a class="text-indigo-500 inline-flex items-center">Read More </a>
+              <a class="text-white  inline-flex items-center">Read More </a>
               <div
                 class="
                   text-center
@@ -168,7 +149,7 @@
           <div class="p-4 lg:w-1/3">
             <div
               class="
-                h-96
+                h-5/6
                 px-8
                 pt-16
                 pb-24
@@ -184,21 +165,19 @@
                   text-xs
                   title-font
                   font-medium
-                  text-gray-400
-                  mb-1
+                  text-black
+                  mb-4
+                  inline-block
+                  py-1
+                  px-2
+                  rounded
+                  bg-white
                 "
               >
                 VueJs | State | Vue.observable
               </h2>
               <h1
-                class="
-                  title-font
-                  sm:text-2xl
-                  text-xl
-                  font-medium
-                  text-white
-                  mb-3
-                "
+                class="title-font sm:text-3xl text-xl font-bold text-white mb-3"
               >
                 Managing State With Vue.observable
               </h1>
@@ -207,7 +186,7 @@
                 we can use it to manage our simple store across our application
                 in Vue.js.
               </p>
-              <a class="text-indigo-500 inline-flex items-center"
+              <a class="text-white  inline-flex items-center"
                 >Read More
                 <svg
                   class="w-4 h-4 ml-2"
@@ -242,7 +221,7 @@
           <div class="p-4 lg:w-1/3">
             <div
               class="
-                h-96
+                h-5/6
                 px-8
                 pt-16
                 pb-24
@@ -258,21 +237,19 @@
                   text-xs
                   title-font
                   font-medium
-                  text-gray-400
-                  mb-1
+                  text-black
+                  mb-4
+                  inline-block
+                  py-1
+                  px-2
+                  rounded
+                  bg-white
                 "
               >
                 Javascipt | Programming
               </h2>
               <h1
-                class="
-                  title-font
-                  sm:text-2xl
-                  text-xl
-                  font-medium
-                  text-white
-                  mb-3
-                "
+                class="title-font sm:text-3xl text-xl font-bold text-white mb-3"
               >
                 Programming - Imperative vs Declarative
               </h1>
@@ -281,7 +258,7 @@
                 programming are, and the differences between them, with a code
                 example.
               </p>
-              <a class="text-indigo-500 inline-flex items-center"
+              <a class="text-white  inline-flex items-center"
                 >Read More
                 <svg
                   class="w-4 h-4 ml-2"
@@ -318,7 +295,7 @@
           <div class="p-4 lg:w-1/3">
             <div
               class="
-                h-96
+                h-5/6
                 px-8
                 pt-16
                 pb-24
@@ -334,31 +311,28 @@
                   text-xs
                   title-font
                   font-medium
-                  text-gray-400
-                  mb-1
+                  text-black
+                  mb-4
+                  inline-block
+                  py-1
+                  px-2
+                  rounded
+                  bg-white
                 "
               >
                 State | Javascipt
               </h2>
               <h1
-                class="
-                  title-font
-                  sm:text-2xl
-                  text-xl
-                  font-medium
-                  text-white
-                  mb-3
-                "
+                class="title-font sm:text-3xl text-xl font-bold text-white mb-3"
               >
                 Managing your State Application in Javascript
               </h1>
               <p class="leading-relaxed mb-3 text-white">
-                Redux, Vuex, and other technologies come to mind when we hear
-                the phrase state in Javascript. But in this article, I'm going
-                to give an in-depth explanation of what state is and how to
-                manage your state application in pure Javascript.
+                In this article, we are going to give an in-depth explanation of
+                what state is and how to manage your state application in pure
+                Javascript.
               </p>
-              <a class="text-indigo-500 inline-flex items-center">Read More </a>
+              <a class="text-white  inline-flex items-center">Read More </a>
               <div
                 class="
                   text-center
@@ -378,7 +352,7 @@
           <div class="p-4 lg:w-1/3">
             <div
               class="
-                h-96
+                h-5/6
                 px-8
                 pt-16
                 pb-24
@@ -394,21 +368,19 @@
                   text-xs
                   title-font
                   font-medium
-                  text-gray-400
-                  mb-1
+                  text-black
+                  mb-4
+                  inline-block
+                  py-1
+                  px-2
+                  rounded
+                  bg-white
                 "
               >
                 Vue | Component | Keep-alive
               </h2>
               <h1
-                class="
-                  title-font
-                  sm:text-2xl
-                  text-xl
-                  font-medium
-                  text-white
-                  mb-3
-                "
+                class="title-font sm:text-3xl text-xl font-bold text-white mb-3"
               >
                 Caching your Dynamic components with Vue Keep-Alive
               </h1>
@@ -417,7 +389,7 @@
                 we can use it to manage our simple store across our application
                 in Vue.js.
               </p>
-              <a class="text-indigo-500 inline-flex items-center"
+              <a class="text-white  inline-flex items-center"
                 >Read More
                 <svg
                   class="w-4 h-4 ml-2"
@@ -452,7 +424,7 @@
           <div class="p-4 lg:w-1/3">
             <div
               class="
-                h-96
+                h-5/6
                 px-8
                 pt-16
                 pb-24
@@ -468,21 +440,19 @@
                   text-xs
                   title-font
                   font-medium
-                  text-gray-400
-                  mb-1
+                  text-black
+                  mb-4
+                  inline-block
+                  py-1
+                  px-2
+                  rounded
+                  bg-white
                 "
               >
                 VueJS
               </h2>
               <h1
-                class="
-                  title-font
-                  sm:text-2xl
-                  text-xl
-                  font-medium
-                  text-white
-                  mb-3
-                "
+                class="title-font sm:text-3xl text-xl font-bold text-white mb-3"
               >
                 Best Practices for Writing Vue.js
               </h1>
@@ -491,7 +461,7 @@
                 programming are, and the differences between them, with a code
                 example.
               </p>
-              <a class="text-indigo-500 inline-flex items-center"
+              <a class="text-white  inline-flex items-center"
                 >Read More
                 <svg
                   class="w-4 h-4 ml-2"
@@ -523,6 +493,9 @@
             </div>
           </div>
         </div>
+        <p class="text-white text-center py-12">
+          Read More of My <NuxtLink to="/blog">Articles</NuxtLink>
+        </p>
       </div>
     </section>
   </main>
