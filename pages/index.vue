@@ -4,69 +4,17 @@
     <section
       class="
         hero-section
-        flex
-        items-center
-        justify-center
-        text-center
-        w-full
-        h-screen
         
+       
       "
     >
       <header>
-        <h1 class="font-black text-8xl">Emilson Technical Blog</h1>
+        <!-- <h1 class="font-black text-8xl">Emilson Technical Blog</h1> -->
       </header>
     </section>
+
     <section class="body-font">
-      <div
-        class="
-          container
-          mx-auto
-          flex
-          px-5
-          py-24
-          md:flex-row
-          flex-col
-          items-center
-        "
-      >
-        <div
-          class="
-            lg:flex-grow
-            md:w-1/2
-            lg:pr-24
-            md:pr-16
-            flex flex-col
-            md:items-start md:text-left
-            mb-16
-            md:mb-0
-            items-center
-            text-center
-          "
-        >
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">
-            About Me
-          </h1>
-          <p class="mb-8 leading-relaxed text-black">
-            I'm currently a technical writer and software developer. Aside from
-            building web tools and applications, I realized that I'd want to do
-            more than build. I'd also want to share resources, teach online, and
-            guide developers. I enjoy educating people and simplifying
-            complicated issues for their easy understanding.
-          </p>
-          <div class="flex justify-center">
-            
-          
-          </div>
-        </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            class="object-cover object-center rounded"
-            alt="hero"
-            src="https://dummyimage.com/720x600"
-          />
-        </div>
-      </div>
+      <AboutSection />
     </section>
 
     <!-- ARTICLE SECTION -->
@@ -117,7 +65,7 @@
                 Javascript, why and where you should use currying, and how to
                 implement it with code examples.
               </p>
-              <a class="text-black  inline-flex items-center"
+              <a class="text-black inline-flex items-center"
                 >Read More
                 <svg
                   class="w-4 h-4 ml-2"
@@ -145,9 +93,7 @@
                   w-full
                   py-4
                 "
-              >
-              
-              </div>
+              ></div>
             </div>
           </div>
           <div class="p-4 lg:w-1/3">
@@ -504,16 +450,28 @@
     </section>
   </main>
 </template>
+<script>
+import AboutSection from '~~/components/AboutSection.vue';
+export default {
+  name: "About Section",
+  components: {
+    AboutSection,
+  },
+};
+</script>
 
 <style scoped>
 .hero-section {
-  background-color: #D8C6B6;
-  color: #170D0B;
+  /* background-color: #ffff; */
+  background-image: url(../assets/img/hero.png);
+  /* color: #170d0b; */
+  background-size: cover;
+  height: 120vh;
 }
 .article-section {
-  background-color: #D8C6B6;
+  background-color: #d8c6b6;
 }
 .article-card {
-  background-color: #DDD6D3;
+  background-color: #ddd6d3;
 }
 </style>
