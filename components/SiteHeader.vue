@@ -9,10 +9,19 @@
         </figure>
       </NuxtLink>
 
-      <nav class="site-nav">
-        <ul class="links">
+      <nav class="site-nav ">
+        <ul class="links flex justify-between align-items ">
+          <li class="link px-3">
+            <NuxtLink to="/blog">HTML Topics</NuxtLink>
+          </li>
           <li class="link">
-            <NuxtLink to="/blog">My Article</NuxtLink>
+            <NuxtLink to="/blog">CSS Topics</NuxtLink>
+          </li>
+          <li class="link">
+            <NuxtLink to="/blog">Javascript Topics</NuxtLink>
+          </li>
+           <li class="link">
+            <NuxtLink to="/blog">VueJS Topics</NuxtLink>
           </li>
         </ul>
       </nav>

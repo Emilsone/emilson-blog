@@ -125,16 +125,21 @@
      <section class="text-white body-font news-section">
       <NewsLetter />
      </section>
+      <section class="text-white body-font news-section">
+      <FooterSection />
+     </section>
   </main>
 </template>
 <script>
 import AboutSection from "~~/components/AboutSection.vue";
 import NewsLetter from "~~/components/NewsLetter.vue";
+import FooterSection from "~~/components/FooterSection.vue";
 export default {
   name: "About Section",
   components: {
     AboutSection,
-    NewsLetter
+    NewsLetter,
+    FooterSection
   },
 };
 </script>
@@ -152,9 +157,9 @@ export default {
 }
 
 .about-section {
-  background-color: #15181e;
+  background-color: #010100;
 }
 .news-section {
-  background-color: #15181e;
+  background-color: #010100;
 }
 </style>

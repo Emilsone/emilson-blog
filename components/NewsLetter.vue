@@ -35,7 +35,7 @@
         <input
           class="
             bg-gray-100
-            rounded-lg rounded-r-none
+            rounded-sm rounded-r-none
             dark:bg-gray-800
             text-base
             leading-none
@@ -53,8 +53,7 @@
           class="
             w-32
             rounded-l-none
-            hover:bg-indigo-600
-            bg-indigo-700
+            bg-btn bg-opacity-90 hover:bg-opacity-100
             rounded
             text-base
             font-medium
@@ -68,7 +67,7 @@
             focus:ring-indigo-700
           "
         >
-          subscribe
+          Subscribe
         </button>
       </div>
     </div>
@@ -78,3 +77,8 @@
 <script>
 export default {};
 </script>
+<style>
+.bg-btn{
+    background-color: #15CA82E6;
+}
+</style>
