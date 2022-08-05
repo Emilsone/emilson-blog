@@ -25,10 +25,10 @@
             text-center
           "
         >
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-white">
             About Me
           </h1>
-          <p class="mb-8 leading-relaxed text-black">
+          <p class="mb-8 leading-relaxed text-white">
             I'm currently a technical writer and software developer. Aside from
             building web tools and applications, I realized that I'd want to do
             more than build. I'd also want to share resources, teach online, and
