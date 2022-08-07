@@ -8,12 +8,12 @@
         items-center
         justify-between
         mt-0
-        py-2
+        py-6
         mx-auto
       "
     >
       <div class="pl-4 flex items-center">
-       <h1 class="font-bold text-2xl text-black">Emilson-Blog</h1>
+        <h1 class="font-bold text-2xl text-black">Emilson-Blog</h1>
       </div>
       <div class="block lg:hidden pr-4">
         <span
@@ -61,7 +61,7 @@
                 inline-block
                 text-black
                 no-underline
-                hover:text-gray-800 
+                hover:text-gray-800
                 py-2
                 px-4
               "
@@ -76,7 +76,7 @@
                 inline-block
                 text-black
                 no-underline
-                hover:text-gray-800 
+                hover:text-gray-800
                 py-2
                 px-4
               "
@@ -90,7 +90,7 @@
                 inline-block
                 text-black
                 no-underline
-                hover:text-gray-800 
+                hover:text-gray-800
                 py-2
                 px-4
                 uppercase
@@ -105,7 +105,7 @@
                 inline-block
                 text-black
                 no-underline
-                hover:text-gray-800 
+                hover:text-gray-800
                 py-2
                 px-4
                 uppercase
@@ -120,7 +120,7 @@
                 inline-block
                 text-black
                 no-underline
-                hover:text-gray-800 
+                hover:text-gray-800
                 py-2
                 px-4
                 uppercase
@@ -140,7 +140,6 @@
                   btn-sign
                   px-10
                   no-underline
-                  
                   py-3
                   md:mx-6
                 "
@@ -157,10 +156,9 @@
 </template>
 
 <script>
-
 export default {
   name: "NavBar",
- 
+
   data() {
     return {
       scrollY: 0,
@@ -168,7 +166,6 @@ export default {
     };
   },
   computed: {
-   
     isSticky() {
       return this.scrollY > 10;
     },
