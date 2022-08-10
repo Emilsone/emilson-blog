@@ -17,7 +17,7 @@
           mt-4
         "
       >
-        Top Articles on my Blog
+        Get the weekly newsletter.
       </h1>
       <p
         class="
