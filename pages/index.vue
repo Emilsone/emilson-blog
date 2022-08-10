@@ -23,17 +23,29 @@
               <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
             </div>
             <div class="md:flex-grow">
-              <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
-                Bitters hashtag waistcoat fashion axe chia unicorn
-              </h2>
+              <h1 class="text-4xl font-extrabold text-gray-900 title-font mb-2">
+                Understanding JavaScript currying
+              </h1>
               <p class="leading-relaxed">
-                Glossier echo park pug, church-key sartorial biodiesel
-                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
-                party messenger bag selfies, poke vaporware kombucha
-                lumbersexual pork belly polaroid hoodie portland craft beer.
+                Currying is a function that takes one argument at a time and
+                returns a new function expecting the next argument. It is a
+                transformation of functions that translates a function from
+                callable as f(a, b, c) into callable as f(a)(b)(c). In this
+                article, we’re going to explore what currying is in Javascript,
+                why and where you should use currying, and how to implement it
+                with code examples.
               </p>
-              <a class="text-indigo-500 inline-flex items-center mt-4"
-                >Learn More
+              <a
+                class="
+                  text-white
+                  bg-black
+                  py-3
+                  px-4
+                  inline-flex
+                  items-center
+                  mt-4
+                "
+                >Read More
                 <svg
                   class="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -57,17 +69,27 @@
               <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
             </div>
             <div class="md:flex-grow">
-              <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
-                Meditation bushwick direct trade taxidermy shaman
-              </h2>
+              <h1 class="text-4xl font-extrabold text-gray-900 title-font mb-2">
+                Programming - Imperative vs Declarative
+              </h1>
               <p class="leading-relaxed">
-                Glossier echo park pug, church-key sartorial biodiesel
-                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
-                party messenger bag selfies, poke vaporware kombucha
-                lumbersexual pork belly polaroid hoodie portland craft beer.
+                I have had a lot of questions from programmers regarding the
+                differences between Declarative and Imperative programming, and
+                most developers are unsure when to use which. In this post,
+                we’ll go over what imperative and declarative in programming
+                are, and the differences between them, with a code example
               </p>
-              <a class="text-indigo-500 inline-flex items-center mt-4"
-                >Learn More
+              <a
+                class="
+                  text-white
+                  bg-black
+                  py-3
+                  px-4
+                  inline-flex
+                  items-center
+                  mt-4
+                "
+                >Read More
                 <svg
                   class="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -91,17 +113,28 @@
               <span class="text-sm text-gray-500">12 Jun 2019</span>
             </div>
             <div class="md:flex-grow">
-              <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
-                Woke master cleanse drinking vinegar salvia
-              </h2>
+              <h1 class="text-4xl font-extrabold text-gray-900 title-font mb-2">
+                Managing State With Vue.observable
+              </h1>
               <p class="leading-relaxed">
-                Glossier echo park pug, church-key sartorial biodiesel
-                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
-                party messenger bag selfies, poke vaporware kombucha
-                lumbersexual pork belly polaroid hoodie portland craft beer.
+                There are also other methods aside from Vue.observable, like
+                Vuex and Pinia, that provide a similar solution to manage state;
+                however, Vue.observable is preferable, as it is less complex and
+                less verbose. In this article, we’ll explain what Vue.observable
+                is, and how we can use it to manage our simple store across our
+                application in Vue.js.
               </p>
-              <a class="text-indigo-500 inline-flex items-center mt-4"
-                >Learn More
+              <a
+                class="
+                  text-white
+                  bg-black
+                  py-3
+                  px-4
+                  inline-flex
+                  items-center
+                  mt-4
+                "
+                >Read More
                 <svg
                   class="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -117,17 +150,93 @@
               </a>
             </div>
           </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="font-semibold title-font text-gray-700"
+                >CATEGORY</span
+              >
+              <span class="text-sm text-gray-500">12 Jun 2019</span>
+            </div>
+            <div class="md:flex-grow">
+              <h1 class="text-4xl font-extrabold text-gray-900 title-font mb-2">
+                Validating Forms with Vue Formulate
+              </h1>
+              <p class="leading-relaxed">
+                When developing an application, we include a form. On the other
+                hand, the management and validation of our form can be complex
+                and repetitive. In this article, we’ll cover one of the Vue.js
+                validation libraries (Vue Formulate), its capabilities, and how
+                it validates our application. Vue.js’s setup and installation
+                will not be covered in this tutorial, so you should already be
+                familiar with those topics.
+              </p>
+              <a
+                class="
+                  text-white
+                  bg-black
+                  py-3
+                  px-4
+                  inline-flex
+                  items-center
+                  mt-4
+                "
+                >Read More
+                <svg
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+         
+
+
         </div>
+         <div class="flex justify-center my-16">
+            <a
+              class="
+                text-white
+                bg-black
+                py-3
+                px-4
+                inline-flex
+                items-center
+                mt-4
+                
+              "
+              >Read More Articles
+              <svg
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
       </div>
     </section>
     <!-- END OF ARTICLE SECTION -->
 
-     <section class="text-white body-font news-section">
+    <section class="text-white body-font news-section">
       <NewsLetter />
-     </section>
-      <section class="text-white body-font news-section">
+    </section>
+    <section class="text-white body-font news-section">
       <FooterSection />
-     </section>
+    </section>
   </main>
 </template>
 <script>
@@ -139,7 +248,7 @@ export default {
   components: {
     AboutSection,
     NewsLetter,
-    FooterSection
+    FooterSection,
   },
 };
 </script>

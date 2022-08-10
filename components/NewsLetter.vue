@@ -79,6 +79,7 @@ export default {};
 </script>
 <style>
 .bg-btn{
-    background-color: #15CA82E6;
+  background-color: #3d9421;
+  border-color: #3d9421;
 }
 </style>

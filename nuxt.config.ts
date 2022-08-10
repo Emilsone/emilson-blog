@@ -21,8 +21,12 @@ export default defineNuxtConfig({
         searchDepth: 5
       },
     }
+    
   },
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
-  }
+  },
+  plugins: [
+   '~/plugins/fontawesome.js',
+  ],
 })
