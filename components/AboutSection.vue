@@ -41,7 +41,7 @@
           <img
             class="object-cover object-center rounded"
             alt="about-image"
-            src="../assets/img/image-cartoon.png"
+            src="../assets/img/about-me.png"
           />
         </div>
       </div>
