@@ -36,28 +36,16 @@
       >
         <ul class="list-reset mb-6 py-3">
           <li class="mt-2 inline-block mr-4 md:mr-6 w-12 span h-10 py-2">
-            <i
-              class="fa fa-facebook align-center flex justify-center"
-              aria-hidden="true"
-            ></i>
+          
           </li>
           <li class="mt-2 inline-block mr-4 md:mr-6 w-12 span h-10 py-2">
-            <i
-              class="fa fa-twitter align-center flex justify-center"
-              aria-hidden="true"
-            ></i>
+            
           </li>
           <li class="mt-2 inline-block mr-4 md:mr-6 w-12 span h-10 py-2">
-            <i
-              class="fa fas fa-user align-center flex justify-center"
-              aria-hidden="true"
-            ></i>
+            
           </li>
           <li class="mt-2 inline-block mr-4 md:mr-6 w-12 span h-10 py-2">
-            <i
-              class="fa fa-linkedin align-center flex justify-center"
-              aria-hidden="true"
-            ></i>
+           
           </li>
         </ul>
       </span>
